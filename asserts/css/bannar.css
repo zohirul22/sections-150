@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.bannar {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-bg-1 {
+    background-image: url('/asserts/img/text-bg-1\ \(1\).jpg');
+   
+}
+
+.text-bg-2 {
+    background-image: url('/asserts/img/text-bg-1\ \(2\).jpg');
+    overflow: hidden;
+}
+
+.text {
+    position: relative;
+    color: aliceblue;
+    z-index: 2;
+    padding: 50px;
+}
+
+.text-bg-1 .text::after {
+    position: absolute;
+    height: 100%;
+    width: 5000%;
+    content: " ";
+    background-color: blue;
+    left: -4900%;
+    top: 0;
+    transform: skewX(13deg);
+    z-index: -1;
+}
+
+.text-bg-2 .text::after {
+    position: absolute;
+    height: 100%;
+    width: 5000%;
+    content: " ";
+    background-color: rgb(13, 156, 167);
+    left: auto;
+    right: -4900%;
+    top: 0;
+    transform: skewX(13deg);
+    z-index: -1;
+
+}
+
+button {
+    text-transform: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
