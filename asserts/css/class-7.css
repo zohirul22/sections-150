@@ -1,0 +1,73 @@
+.section-padding {
+    padding: 20px 0px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.single-service{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+.spacial {
+    color: blue;
+}
+
+.service-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: aliceblue;
+    height: 220px;
+}
+
+.services-bg-1 {
+    background-image: url("/asserts/img/bg-1.jpg");
+}
+
+.services-bg-2 {
+    background-image: url("/asserts/img/bg-2.jpg");
+}
+
+.services-bg-3 {
+    background-image: url("/asserts/img/bg-3.jpg");
+}
+
+.services-bg-4 {
+    background-image: url("/asserts/img/bg-4.jpg");
+}
+
+.services-details{
+    padding: 20px;
+}
+.services-details h2{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.single-btn{
+  
+    font-size: 16px;
+    color: #0b54db;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-top: 60px;
+    transition: .2s;
+}
+.single-btn  .bx{
+    margin-left: 10px;
+}
+
+.single-btn:hover{
+    background-color: rgb(20, 66, 134);
+    color: #fff;
+    padding: 10px 20px;
+   
+}
