@@ -1,0 +1,56 @@
+.section-title {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.section-title h2 {
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.section-title h2::before {
+    position: absolute;
+    content: " ";
+    background-color: blueviolet;
+    width: 80px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -40px;
+
+}
+
+.section-title h2::after {
+    position: absolute;
+    content: " ";
+    background-color: rgb(230, 208, 16);
+    width: 40px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+
+}
+
+.section-title p {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.single-box {
+    text-align: center;
+}
+
+.box-details h4 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.box-details p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(99, 94, 94);
+    text-align: center;
+    font-size: 14px;
+}
