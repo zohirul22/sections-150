@@ -1,0 +1,71 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.section-title {
+    text-align: center;
+    margin: 20px 0px;
+
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.section-title h2 span {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+
+
+/* single card */
+.single-card {
+    width: 250px;
+    border: 1px solid rgba(131, 127, 127, 0.74);
+    background-color: #fff;
+    padding: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.pricing-footer,
+.pricing-icons,
+.pricing-title {
+    text-align: center;
+}
+
+.pricing-title {
+    text-transform: uppercase;
+}
+
+.pricing-description {
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.pricing-description .bx {
+    color: #111;
+    font-size: 19px;
+    margin-right: 5px;
+
+}
+
+
+
+.pricing-footer button {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #fff;
+
+}
+
+.pricing-footer button a {
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+}
