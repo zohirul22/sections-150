@@ -69,3 +69,32 @@
     display: block;
     margin-top: 10px;
 }
+
+.clients-testimonial-carousel{
+    margin-top: 70px;
+}
+
+.clients-testimonial-carousel .owl-nav {
+    position: absolute;
+    top: -68px;
+    right: 39px;
+    bottom: 0;
+}
+
+
+.clients-testimonial-carousel .owl-nav button i {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #e9e6e6;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.clients-testimonial-carousel .owl-nav button i:hover {
+    background-color: aqua;
+    color: aliceblue;
+}
