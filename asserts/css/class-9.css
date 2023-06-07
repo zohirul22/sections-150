@@ -51,13 +51,15 @@
 }
 
 .single-carodsel-item::after {
+    content: ' ';
     position: absolute;
-    content: " ";
-    height: 62%;
-    width: 1px;
-    left: 60px;
-    top: 33px;
-    background-color: #d7d9d3;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 5px;
+    background-color: gainsboro;
+    display: inline-block;
+    bottom: 20%;
 }
 
 .single-carodsel-item h3 {
