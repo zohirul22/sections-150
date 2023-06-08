@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@200;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* top-header-area */
+.top-header-area {
+    background-color: green;
+    color: aliceblue;
+    padding: 5px 0px;
+}
+
+.top-header-area a {
+    color: aliceblue;
+}
+
+/* header-area */
+.header-area {
+    padding: 20px 0px;
+}
+
+.header-area h3 a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+.header-area .right-side ul li {
+    display: inline-block;
+    margin-left: 42px;
+}
+
+.header-area .right-side ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.header-area .right-side ul li a:hover {
+    color: red;
+}
+
+/* homepage-slides */
+.homepage-slides {
+    background-color: green;
+    padding: 100px 0px;
+}
+
+.single-homepage-slider .left-side h2 {
+    font-size: 36px;
+    color: #fff;
+    font-family: vardana;
+    
+}
+.single-homepage-slider .left-side p {
+    font-size: 16px;
+    color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px 0px;
+}
+
+.slide-btn {
+    color: black;
+    background-color: yellow;
+    padding: 11px 16px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.homepage-slides .owl-dots button{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: .2s;
+}
+.homepage-slides .owl-dots{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.homepage-slides .owl-dots button.active{
+    background-color: yellow;
+}
