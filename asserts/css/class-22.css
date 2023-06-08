@@ -4,13 +4,15 @@
     text-align: center;
     margin-top: 50px;
 }
-
+.spacial{
+    color: blue;
+}
 .section-title h2{
-   font-size: 30px;
+   font-size: 40px;
    color: black;
    text-transform: uppercase;
    font-weight: 700;
-   font-family: fantasy;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    margin-bottom: 10px;
 
 }

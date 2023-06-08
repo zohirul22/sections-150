@@ -1,0 +1,88 @@
+.section-title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.section-title h2{
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.section-title p{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.spacial{
+    color: blue;
+}
+
+.box-bg-1 {
+    background-image: url('/asserts/img/img/bg-3.jpg');
+
+}
+
+.box-bg-2 {
+    background-image: url('/asserts/img/img/bg-3.jpg');
+
+}
+
+.box-bg-3 {
+    background-image: url('/asserts/img/img/bg-3.jpg');
+
+}
+
+.service-box-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    position: relative;
+
+}
+
+.single-service-box {
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-box-bg h2 {
+    background-color: rgb(255, 94, 0);
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    width: 76%;
+    margin: 0px 41px;
+    left: 0;
+    bottom: -22px;
+}
+
+.service-box-content{
+   margin: 35px 0px;
+}
+.service-box-content p{
+   text-align: justify;
+   padding: 5px 5px;
+   font-size: 17px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+.service-btn{
+  
+   padding: 10px 20px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(27, 6, 6);
+  background-color: azure;
+  text-decoration: none;
+}
