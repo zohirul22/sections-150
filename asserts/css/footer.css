@@ -1,0 +1,106 @@
+.footer-area {
+    background-color: #07A2FB;
+    padding: 50px 0px;
+}
+
+.footer-area ul {
+    margin: 0px;
+    padding: 0px;
+    line-height: 31px;
+}
+
+.footer-area ul li {
+    list-style: none;
+
+}
+
+.footer-area ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+
+}
+
+.footer-area,
+.footer-area a {
+    color: #fff;
+
+}
+
+.footer-area h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-area .social-links a {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.footer-area .contract-info {
+    position: relative;
+    padding-left: 30px;
+}
+
+.footer-area .contract-info i.fa-solid {
+    position: absolute;
+    left: 0;
+    top: 22%;
+}
+
+.footer-subscribe-from h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.footer-subscribe-from input[type='email'] {
+    border: none;
+    color: #000;
+    padding: 10px;
+    width: 73%;
+    font-size: 16px;
+}
+
+.footer-subscribe-from input[type='submit'] {
+    border: none;
+    color: #07A2FB;
+    padding: 10px;
+    width: 25%;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-subscribe-from p {
+    margin-top: 10px;
+}
+.copy-write-area{
+    padding: 30px 0;
+    background-color: #fff;
+    color: #000000b9;
+}
+.copy-write-area ul {
+    list-style: none;
+   
+}
+.copy-write-area ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000b9;
+    text-transform: capitalize;
+}
+
+.copy-write-area li{
+    display: inline-block;
+  
+}
+.copy-write-area li::after{
+    content: "|";
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.copy-write-area li:last-child::after{
+ display: none;
+}
